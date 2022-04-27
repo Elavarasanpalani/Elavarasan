@@ -1,9 +1,9 @@
 package ela;
 
 public class Demo {
-  public stativ void main(String[]args)
+  public static void main(String[]args)
   {
-    System.out.println("eLAVARASAN");
+    System.out.println("eLAVARACSAN");
     }
 
 }
