@@ -1,0 +1,6 @@
+INFO    2022-04-29 13:56:10,288 [main] tree.Tony  - this is a dasdmessage....:Welcome
+WARN    2022-04-29 13:56:10,289 [main] tree.Tony  - warning mesdasdasage...:Welcome
+ERROR   2022-04-29 13:56:10,289 [main] tree.Tony  - error medscadsssage....:Welcome
+INFO    2022-04-29 13:59:34,823 [main] tree.Tony  - this is a dasdmessage....:Welcome
+WARN    2022-04-29 13:59:34,824 [main] tree.Tony  - warning mesdasdasage...:Welcome
+ERROR   2022-04-29 13:59:34,824 [main] tree.Tony  - error medscadsssage....:Welcome
