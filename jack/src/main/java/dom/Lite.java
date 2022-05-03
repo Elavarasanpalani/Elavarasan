@@ -16,6 +16,7 @@ String str="welcome to sonar";
 		logger.info("this is a message....:"+str);
 		logger.warn("warning message...:"+str);
 		logger.error("error message...:"+str);
+		logger.name("it will successfull...:"+str);
 
 	}
 
