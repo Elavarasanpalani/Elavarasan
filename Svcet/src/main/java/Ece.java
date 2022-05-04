@@ -2,7 +2,7 @@
 public class Ece {
 
 	public static void main(String[] args) {
-		System.out.println("HELLgO");
+		System.out.println("HELLfgO");
 		// TODO Auto-generated method stub
 
 	}
