@@ -1,7 +1,7 @@
 package chapter6;
 
 class CarInterface implements Tamil{
-	public void jerry(){
+	public void jerry(){						
 		System.out.println("this is abstract class "+n1);
 	}
 	public static void main (String []args) {

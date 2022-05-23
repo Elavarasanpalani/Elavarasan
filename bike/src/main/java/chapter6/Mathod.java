@@ -1,7 +1,10 @@
 package chapter6;
 
 public class Mathod {/// classification ---it is a only creat object  in main class
+	int a=10;
+	static int b=9;
 	public static void  main(String []args) {
+		System.out.println(b);
 		Sample num=new Sample();
 		
 		num.med1();
@@ -18,10 +21,15 @@ public class Mathod {/// classification ---it is a only creat object  in main cl
 	}
 }
 
+
  class Sample implements Raj{//claisifier--abstrac class--->use i dont change  
 	int i;//instan verisble 
-
+Mathod k=new Mathod();
+int c=k.a;
+int e=k.b;
    void med1() { /// rols
+	   System.out.println(c);
+	System.out.println(e);
 	System.out.println("Elavarsan");
 }
    void maed2() {
