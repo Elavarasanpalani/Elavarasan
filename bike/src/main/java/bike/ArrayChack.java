@@ -1,9 +1,22 @@
 package bike;
 
+import java.io.File;
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
+
+
 public class ArrayChack {
+	static Logger logger=Logger.getLogger(ArrayChack.class);
+
+	
+	
 public static void main(String[] args) {
+	String log4jConfigFile = System.getProperty("user.dir") + File.separator + "log4j.properties";
+	PropertyConfigurator.configure(log4jConfigFile);
+	
 	
 	Scanner n = new Scanner(System.in);
 	
@@ -20,11 +33,11 @@ public static void main(String[] args) {
 	
 	if(ch==a1[0] || ch==a1[1] || ch==a1[2] || ch ==a1[3] || ch==a1[4]) {
 		
-		System.out.println(ch+" this is vowel");
+		logger.info(ch+" this is vowel");
 		
 	}
 	else {
-		System.out.println( ch+"  This is not vowel");
+		logger.info( ch+"  This is not vowel");
 }
 }
 }
