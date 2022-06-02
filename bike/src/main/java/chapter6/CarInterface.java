@@ -26,5 +26,5 @@ public void jerry(){
 
 interface Tamil{
 	String n1="book";
-	void jerry();
+	//void jerry();
 }
