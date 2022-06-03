@@ -1,5 +1,5 @@
 package staticdemo;
-public class Tamil{
+public class tamil{
 	
 }
 

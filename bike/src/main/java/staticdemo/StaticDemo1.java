@@ -19,6 +19,10 @@ public class StaticDemo1 {
 	   System.out.println("veedu2 toilet..:"+veedu2.toilet);
 		veedu2.toilet("Steel tap..");
 		
+	  System.out.println();
+	  veedu1.r.cashhh();
+	  
+		
 		
 		
 		//House veedu3=new House();
@@ -40,5 +44,20 @@ class House{
 	    System.out.println(taps);
 		System.out.println(tap);
 		
+  
+		
 	}
+	 public static void metkd() {
+		   System.out.println("eaf");
+		   
+		   
+	   }
+	 rent r=new rent();
+	 
+	 
+	 static class rent{
+		 public void cashhh() {
+			 System.out.println("ekajdioff");
+		 }
+	 }
 }
