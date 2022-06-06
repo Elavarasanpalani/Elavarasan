@@ -28,7 +28,7 @@ public class StaticDemo1 {
 		//House veedu3=new House();
 		//veedu3.toile("elavarasan");
 		
-		
+		House.rent.cashhh();
 		
 		
 		
@@ -56,7 +56,7 @@ class House{
 	 
 	 
 	 static class rent{
-		 public void cashhh() {
+		 static void cashhh() {
 			 System.out.println("ekajdioff");
 		 }
 	 }
