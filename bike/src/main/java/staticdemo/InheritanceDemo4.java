@@ -20,7 +20,7 @@ abstract class Dominos{
 	private void packing() {
 		System.out.println("packing done as per dominos logic...");
 	}
-	final public void makePizza() {//this method is called template method
+	final public void makePizza() {//this method is called template method... behavior design patten is called template
 		makeDough();
 		bakePizza();
 		addToppings();

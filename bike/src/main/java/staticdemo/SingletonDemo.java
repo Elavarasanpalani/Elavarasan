@@ -28,7 +28,7 @@ class DpConnection{
 	   System.out.println("DB object create...");
    
    }
-   private static DpConnection dpcon;//complax type 
+   private static DpConnection dpcon;///complax type 
    public static  DpConnection getDbcon() {
 	   if (dpcon== null) {
 		   dpcon=new DpConnection();

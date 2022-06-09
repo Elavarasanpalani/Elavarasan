@@ -14,6 +14,9 @@ public class PBV_PBR_Demo {
 		System.out.println("Size of laddu before PBR..:"+laddu.size);//10
 		new PBR().accept(laddu);
 		System.out.println("Size of laddu after PBR...:"+laddu.size);//5
+		new PBR().accept(laddu);
+		
+		System.out.println("Size of laddu before PBR..:"+laddu.size);
 	}
 	
 }
