@@ -22,7 +22,7 @@ class SBDemo{
 		System.out.println("static method met called...");
 	}
 	
-	static void met2() {
+	static  void met1() {
 		System.out.println("static method met2 called...");
 	}
 }
