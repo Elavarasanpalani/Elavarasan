@@ -27,7 +27,7 @@ public class CloneSingleMulty {
 	}
 
 }
-class Balance implements Cloneable
+class Balance implements Cloneable//becaus is prodectoed   
 {
 	public Balance() {
 		System.out.println("balance object creating of the amount....");

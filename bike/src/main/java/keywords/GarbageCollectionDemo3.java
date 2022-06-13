@@ -1,6 +1,5 @@
 package keywords;
 
-public class GarbageCollectionDemo3 {
-
+public class GarbageCollectionDemo3 { 
 	
 }
