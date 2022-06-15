@@ -17,7 +17,7 @@ public class ThreadingDemo2 {
 	}
 	public static void cook() {
 		
-		try {
+	try {//if doni know try catch block is says  unresolved compilationproble
 			Thread.sleep(5000);
 		}catch(Exception e){}
 		System.out.println("mom calling his son go to bye a masala...");
