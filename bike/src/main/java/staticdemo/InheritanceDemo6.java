@@ -30,7 +30,7 @@ class venila extends Ieccream{
 		
 	}
 	public venila(Ibaco ibaco) {
-		this.ibaco=ibaco;//main class we should  call for this key workds..
+		this.ibaco=ibaco;//main class we should  call for this key words..
 	}
 	
 
