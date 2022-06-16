@@ -11,6 +11,10 @@ public class Food {
 	public void mutton() {
 		
 	}
+	@NonChicken
+	public void chicken() {
+		
+	}
 
 
 }
