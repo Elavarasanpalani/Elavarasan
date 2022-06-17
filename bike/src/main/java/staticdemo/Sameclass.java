@@ -1,5 +1,5 @@
 package staticdemo;
-<<<<<<< HEAD
+
 
 
 
@@ -26,9 +26,9 @@ class Samepacknosub{
 	}
 	}
 class samepacksubclass extends Sameclass{
-	public void met() {
+	public void met() {}
 	//	System.out.println(pri);
-=======
+
 public class tamil{
 	
 }
@@ -54,18 +54,18 @@ class Samepacknosub{
 		System.out.println(dd.pro);
 		System.out.println(dd.pub);
 	}
-	}
-class samepacksubclass extends Sameclass{
+	}}
+class samepacksubclass1 extends Sameclass{
 	public void met() {
-		System.out.println(pri);
->>>>>>> branch 'master' of https://github.com/Elavarasanpalani/Elavarasan.git
+		//System.out.println(pri);
 		System.out.println(nomod);
 		System.out.println(pro);
 		System.out.println(pub);
 	}
 }
+
 	
-	
+
 	
 
 	

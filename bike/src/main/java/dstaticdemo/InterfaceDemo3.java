@@ -11,11 +11,8 @@ public class InterfaceDemo3 {
 				// TODO Auto-generated method stub
 				return i+":"+s;
 			}
-<<<<<<< HEAD
 		}.met(155,"elavarsanvjvj");
-=======
-		}.met(155,"elavarsan");
->>>>>>> branch 'master' of https://github.com/Elavarasanpalani/Elavarasan.git
+		
 		System.out.println("this is anaymous model..."+value);
 		
 		
