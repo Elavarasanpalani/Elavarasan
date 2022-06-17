@@ -1,0 +1,11 @@
+INFO    2022-05-10 13:48:53,800 [main] basic.StringDemo  - this is a message....:h
+INFO    2022-05-10 14:58:18,285 [main] basic.StringDemo  - this is a message....:h
+INFO    2022-05-10 14:58:18,286 [main] basic.StringDemo  - The sub str is...:lo word
+INFO    2022-05-10 14:58:18,286 [main] basic.StringDemo  - The value is..:lo w
+INFO    2022-05-10 14:58:18,286 [main] basic.StringDemo  - The va...:6
+INFO    2022-05-10 14:58:18,287 [main] basic.StringDemo  - false
+INFO    2022-05-10 14:58:18,287 [main] basic.StringDemo  - true
+INFO    2022-05-10 14:58:18,287 [main] basic.StringDemo  - 65
+INFO    2022-05-10 14:58:18,287 [main] basic.StringDemo  - 67
+INFO    2022-05-10 14:58:18,287 [main] basic.StringDemo  - -2
+INFO    2022-05-10 14:58:18,287 [main] basic.StringDemo  - 2

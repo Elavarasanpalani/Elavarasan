@@ -8,8 +8,12 @@ import java.util.ListIterator;
 public class listcoll {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		List<String> list=new ArrayList();//arraylis is fast
 		//
+=======
+		List<String> list=new ArrayList();
+>>>>>>> branch 'master' of https://github.com/Elavarasanpalani/Elavarasan.git
 		
 //		//hettrogienou for the list collection but is work
 //		list.add("string");
