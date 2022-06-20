@@ -10,7 +10,7 @@ import java.util.function.Consumer;
 public class setDemoHas {
 
 	public static void main(String[] args) {
-		Set<String>  hs=new  HashSet<String>();//Store  the group of strting 
+		Set<String>  hs=new  HashSet<String>();//Store  the group of strting //hasset is show safful value..
 		
 		
 		hs.add("aaa");
@@ -34,7 +34,7 @@ public class setDemoHas {
 		
 		System.out.println("************************* method ref");
 		hs.forEach(new MyConsumer() );//foreach method is asking the comsumer interface 
-		
+			
 		System.out.println("########################//creat method of the class and implements");
 		
 		hs.forEach((s)->{System.out.println(s);});
