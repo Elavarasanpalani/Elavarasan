@@ -25,7 +25,7 @@ public class Assigment2 {
 			String todaydate=sd.format(date);
 			String todaydate1=sd.format(da);
 			
-			System.out.println(days+"days frodfm today "+todaydate+".."+todaydate1	);
+			System.out.println(days+"days frodfmdf today "+todaydate+".."+todaydate1	);
 
 	}
 
