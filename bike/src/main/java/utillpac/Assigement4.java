@@ -69,7 +69,7 @@ public class Assigement4 {
 		
 		int rr=(int) t;
 		
-		System.out.println("The Total Travel Time in minutes.........."+t);
+		System.out.println("The Total Travel Times in minutes.........."+t);
 		
 	
 		LocalDateTime el=l.plusMinutes(rr);
