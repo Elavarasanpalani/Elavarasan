@@ -42,7 +42,7 @@ public class Assigenmen1 {
 
 			
 		}else {
-			System.out.println("this is not leap year.....");
+			System.out.println("this is dnot leap year.....");
 		}
 				
 		
