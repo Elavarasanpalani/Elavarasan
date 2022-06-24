@@ -29,12 +29,13 @@ public class Assignment6 {
 		
 		minute=s.nextInt();
 		
-		  LocalDateTime a = LocalDateTime.of(date,month,year,hour,minute); 
+		  LocalDateTime a = LocalDateTime.of(year, month, date, hour, minute); 
 		  
 		  DateTimeFormatter f=DateTimeFormatter.ofPattern("dd-MM-yyyy HH-mm a");
 			
 			
 			String ss=a.format(f);
+			System.out.println(ss);
 	
 	}
 
