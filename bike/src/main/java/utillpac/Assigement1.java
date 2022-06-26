@@ -1,13 +1,13 @@
-package jproject;
+package utillpac;
 
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Assigenmen1 {
+public class Assigement1 {
 
 	public static void main(String[] args) {
-		Scanner sp=new Scanner(System.in);
+Scanner sp=new Scanner(System.in);
 		
 		System.out.println("speed...km");
 		
@@ -26,7 +26,10 @@ public class Assigenmen1 {
 		
 		
 		Calendar c= Calendar.getInstance();
-		c.setTime(new Date());
+		c.set(2022,01,20);
+
+		System.out.println("it is holiday..."+c);
+		c.setTime(new Date((long) time));
 		System.out.println("year:"+c.get(Calendar.YEAR));
 		System.out.println("month:"+c.get(Calendar.MONTH));
 		System.out.println("day:"+c.get(Calendar.DATE));
@@ -42,10 +45,9 @@ public class Assigenmen1 {
 
 			
 		}else {
-			System.out.println("this is dnot leap year.....");
+			System.out.println("this is not leap year.....");
 		}
-				
-		
+
 	}
 
 }

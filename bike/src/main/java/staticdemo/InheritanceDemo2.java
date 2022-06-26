@@ -16,7 +16,7 @@ public class InheritanceDemo2 {
 
 }
 abstract class  Humen{
-	final  String name="Humen name is abstact class";{
+	final  String name="Humen namse is abstact class";{
 		System.out.println(name);
 	}
 
