@@ -23,7 +23,7 @@ public class JDBCdemo2 {
 				pre.setInt(1, 3);
 				
 				int no=pre.executeUpdate();
-				System.out.println("ddls"+no);
+				System.out.println("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"+no);
 	
 	}
 
