@@ -18,19 +18,33 @@ public class JDBCDemo2 {
 		
 		//Step 3 - Execute sql statement
 		
+//		String sql="select * from users where uname=?";
+//		PreparedStatement pre=con.prepareStatement(sql);
+//		
+//		//Statement smt=con.createStatement();
+//		
+//		pre.setString(1, "ela");
+//		
+//		
+//		ResultSet  re=pre.executeQuery();//it will show all the table of coulum
+//		
+//		
+//		if(re.next()) {
+//			System.out.println(re.getInt("uid")+"...."+re.getString("uname")+"...."+re.getInt("amt"));
+		
+		
 		String sql="select * from users where uname=?";
 		PreparedStatement pre=con.prepareStatement(sql);
 		
-		//Statement smt=con.createStatement();
-		
 		pre.setString(1, "ela");
 		
+		ResultSet re=pre.executeQuery();
 		
-		ResultSet  re=pre.executeQuery();//it will show all the table of coulum
-		
+	 //   System.out.println(re);
 		
 		if(re.next()) {
-			System.out.println(re.getInt("uid")+"...."+re.getString("uname")+"...."+re.getInt("amt"));
+			System.out.println(re.getInt("amt")+"....."+re.getString("city"));
+		
 			
 			
 		}

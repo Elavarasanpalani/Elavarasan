@@ -18,28 +18,53 @@ public class JDBCDemo1 {
 				
 				//Step 3 - Execute sql statement
 		
-				String sql="update users set flag=? where uid=?";
-				PreparedStatement pre=con.prepareStatement(sql);// one time statement prepared to change many time of pepose..
-				while(true) {
-					Scanner  sc=new Scanner(System.in);
-					
-					System.out.println("enter the uid....!");
-					
-				 int uid=sc.nextInt();
-					
-					System.out.println("enter the flag...!");
-					
-					int fla=sc.nextInt();
-					pre.setInt(1,fla);  //is find 1-index...2-value
-			     	pre.setInt(2, uid);
+//				String sql="update users set flag=? where uid=?";
+//				PreparedStatement pre=con.prepareStatement(sql);// one time statement prepared to change many time of pepose..
+//				while(true) {
+//					Scanner  sc=new Scanner(System.in);
+//					
+//					System.out.println("enter the uid....!");
+//					
+//				 int uid=sc.nextInt();
+//					
+//					System.out.println("enter the flag...!");
+//					
+//					int fla=sc.nextInt();
+//					pre.setInt(1,fla);  //is find 1-index...2-value
+//			     	pre.setInt(2, uid);
+//				
+//				int noofchange=pre.executeUpdate();
+//				
+//				
+//				//process result
+//				
+//				System.out.println(noofchange);
+//				}
 				
-				int noofchange=pre.executeUpdate();
+				
+//				String sql="update users set city=? where uid=?";
+//				PreparedStatement pre=con.prepareStatement(sql);
+//				pre.setString(1, "karur");
+//				pre.setInt(2, 1);	
+//				
+//				int no=pre.executeUpdate();
+//				
+//				System.out.println(no);
 				
 				
-				//process result
+				String sql="update users set amt=? where uname=?";
 				
-				System.out.println(noofchange);
-				}
+				PreparedStatement pre=con.prepareStatement(sql);
+				
+				pre.setInt(1, 9000);
+				pre.setString(2, "ela");
+				
+				
+				int no =pre.executeUpdate();
+				System.out.println(no);
+				
+				
+				
 				
 				
 		
