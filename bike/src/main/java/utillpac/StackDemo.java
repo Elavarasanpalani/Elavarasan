@@ -8,7 +8,7 @@ public class StackDemo {
 		Stack<String> ss=new Stack<String>();
 		
 		ss.push("ela");
-		ss.push("college");
+		ss.push("colldege");
 		ss.push("avs");
 		
 		System.out.println(ss);
