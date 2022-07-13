@@ -27,8 +27,10 @@ class Bank{
 	long getmoney(){
 		return 10L;
 	}
-	
+		
 	String getname() {
 		return "sam";
 	}
+	
+	
 }
