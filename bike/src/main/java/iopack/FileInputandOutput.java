@@ -12,7 +12,7 @@ public class FileInputandOutput {
 		
 		System.out.println(file.getAbsolutePath());
 		
-		System.out.println(file.canExecute());//double clik or not this code..
+		System.out.println(file.canExecute());//double click or not this code..
 		
 		System.out.println(file.exists());//file there or not..
 		try {

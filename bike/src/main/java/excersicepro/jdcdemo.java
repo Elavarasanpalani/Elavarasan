@@ -21,11 +21,11 @@ public class jdcdemo {
 		
 		PreparedStatement pre=con.prepareStatement(sql);
 		
-		pre.setString(0,"ela");
+		pre.setString(1,"ela");
 		
 		ResultSet re=pre.executeQuery();
 		
-			//steep4 excequt process
+			//steep4 excequt process 
 		
 		ResultSetMetaData rsmd=re.getMetaData();
 		int colcount=rsmd.getColumnCount();
