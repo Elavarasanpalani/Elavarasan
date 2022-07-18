@@ -1,5 +1,7 @@
 package revvision;
 
+import keywords.Pentagon;
+
 public class Bridge {
 	public static void main(String[] args) {
 		Shape tri = new Triangle(new RedColor());
