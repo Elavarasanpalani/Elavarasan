@@ -52,7 +52,7 @@ public class jdbcimg {
 			  byte byteArray[] = new byte[is.available()];
 			  is.read(byteArray);
 			  
-			  String filePath = "C:\\Users\\elavarasan.p\\image\\car.jfif";
+			  String filePath = "C:\\Users\\elavarasan.p\\image\\_pic_car.jfif";
 			  try (FileOutputStream outPutStream = new FileOutputStream(filePath)) {
 				outPutStream.write(byteArray);
 			}
