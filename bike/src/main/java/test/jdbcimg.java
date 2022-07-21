@@ -30,7 +30,7 @@ public class jdbcimg {
 		pre.setString(1, "adi");
 		InputStream ins=new FileInputStream("C:\\Users\\elavarasan.p\\image\\car.jfif");
 		//.setBlob(2, ins);	
-		pre.setBlob(2, ins, 123);
+		pre.setBlob(2, ins);
 		
 		pre.execute();
 		

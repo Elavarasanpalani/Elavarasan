@@ -1,4 +1,4 @@
-package bike;
+package car;
 
 public class SampleArray {
 
