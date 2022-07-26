@@ -1,4 +1,4 @@
-package test2;
+package test;
 
 public class BuilderPattern {
 	public static void main(String[] args) {

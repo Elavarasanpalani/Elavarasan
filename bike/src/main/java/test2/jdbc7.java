@@ -38,7 +38,7 @@ public class jdbc7 {
 		try {
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ela", "root", "root");
 		
-			//String sql="create table cell(uid int(10),uname varchar(30),upass varchar(10))";
+			String sql="create table cell(uid int(10),uname varchar(30),upass varchar(10))";
 			
 			Statement state=con.createStatement();
 		
@@ -69,6 +69,11 @@ public class jdbc7 {
 			pre.setString(3, c);
 			pre.execute();
 			
+			ResultSet re=pre.executeQuery();
+			if(re.next()) {
+				return true;
+			}else {
+			
 			
 			System.out.println("the vlaue is enterd....");
 			
@@ -93,7 +98,7 @@ public class jdbc7 {
 			PreparedStatement pre=con.prepareStatement(sql);
 			pre.setString(1, d);
 			pre.setInt(2, f);
-			pre.execute();
+			pre.executeUpdate();
 			
 			
 			

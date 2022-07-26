@@ -21,8 +21,8 @@ public class GenaricDemo1 {
 		
 	}
 
-}
-class BadpaintBrush{
+} 
+class BadpaintBrush{ 
 	public void dopaint(int i) {
 		if(i==1) {
 			System.out.println("red paint....");
